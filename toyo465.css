@@ -1,0 +1,1152 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+body{
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+  background: #5a7194;
+	letter-spacing: 1px;
+}
+
+form{
+  margin: 0;
+  padding: 0;
+}
+
+.body .section p img{
+  padding: 4px;
+  border: 2px solid #bfbfbf;
+  background-color: #fff;
+  border-radius: 6px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+a{
+  color: #0b55a1;
+}
+
+a:visited{
+  color: #548fcb;
+}
+
+div.adminmenu{
+  margin: 0 auto;
+  padding: 0;
+  line-height: 200%;
+  height: 28px;
+  background: #203454;
+  font-size: 80%;
+  text-align: right;
+}
+
+div.adminmenu a{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 0.5em;
+}
+
+div.adminmenu a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  color: #000;
+  margin: 0 auto;
+  padding: 60px 0 45px 0;
+  background: #fff url("http://img.f.hatena.ne.jp/images/fotolife/t/toyoh/20100703/20100703175649.gif") top right repeat-y;
+  text-align: left;
+  font-size: 182%;
+  text-indent: 15px;
+  font-family: "Georgia" , serif;
+  width: 98%;
+  max-width: 1000px;
+  min-width: 700px;
+}
+
+h1 a , h1 a:visited{
+  color: #000;
+}
+
+.hatena-body{
+  margin: 0 auto;
+  background: #fff url("http://img.f.hatena.ne.jp/images/fotolife/t/toyoh/20100703/20100703175649.gif") top right repeat-y;
+  position: relative;
+  text-align: left;
+ _height: 1%;
+ *height: 1%;
+  width: 98%;
+  max-width: 1000px;
+  min-width: 700px;
+  line-height: 1.5;
+}
+
+.hatena-body:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.main{
+  text-align: left;
+  float: left;
+  width: 100%;
+}
+
+.sidebar{
+  line-height: 1.5;
+  width: 250px;
+  margin-left: -250px;
+  float: right;
+  font-size: 108%;
+  margin-top: -100px;
+ _margin-top: 0;
+ *margin-top: 0;
+  overflow: hidden;
+}
+
+a.keyword {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+a.okeyword{
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #e5e5e5;
+
+}
+
+.calendar{
+  margin-right: 250px;
+}
+
+div.calendar{
+  padding: 0.2em 15px;
+  font-size: 108%;
+  text-align:right;
+}
+
+.day{
+  margin-right: 250px;
+}
+
+
+.day{
+  padding: 0.8em 15px 0em 15px;
+  clear: both;
+}
+
+.day h2{
+  color: #fff;
+  margin: 0;
+  font-size: 108%;
+  font-family: "Georgia" , serif;
+  background: #5a7194;
+  padding: 0.3em 0.5em;
+  border: 3px double #fff;
+}
+
+.day h2 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.day h2 .edit{
+  font-size: 108%;
+  font-weight: normal;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.day h2 span.title input , .day h2 span.date input {
+  border: 1px solid #ccc;
+}
+
+.day .photo{
+  float: right;
+  margin: 17px 0 0.5em 0.5em;
+  border: 3px solid #fff;
+}
+
+.body{
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.body .section{
+	font-size: 108%;
+}
+
+.body h3 {
+  font-size: 116%;
+  margin: 1em 0 1em 0;
+}
+
+/*
+.body h3 .timestamp{
+  font-weight: normal;
+  font-size: 108%;
+}
+*/
+
+.body h3 a {
+  text-decoration: none;
+}
+
+.body h3 a .sanchor{
+  color: #3864a8;
+  padding-right: 0.3em;
+}
+
+/*
+.body h3 a.sectioncategory{
+  color: #333;
+  text-decoration: underline;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+*/
+
+.body .sectionheader .sectioncategory{
+	color: #333;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.body .sectionheader .edit .editinplace{
+	color: #333;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.body h3.title {
+    border-left: 9px solid #3864A8;
+    padding-left: 0.5em;
+    margin-bottom: 0;
+}
+
+.body h3.title a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.body h4{
+  border-bottom: 1px solid #cdcdcd;
+  padding: 3px 3px 3px 0;
+  margin: 1em 0 1em 0;
+}
+
+.body h4 a{
+  color: #333;
+}
+
+.body h5{
+  margin: 0.5em 0 0.5em 0;
+  font-size: 100%;
+}
+
+.body h5 a{
+  color: #000;
+}
+
+.body .section{
+  margin: 0 0 0 0;
+  padding-bottom: 1em;
+  padding-left: 3px;
+}
+
+.body .section p{
+  margin: 0.5em 0 1.2em 0;
+}
+
+.body .section pre {
+  font-size: 90%;
+  background: #efefef;
+  border: 1px solid #dedede;
+  padding: 0.5em 0.8em;
+  color: #343434;
+ *width: 100%;
+ _width: 100%;
+  overflow: auto;
+}
+
+.body .section blockquote{
+  border: 1px solid #d0d1d9;
+  margin: 1em 0;
+  padding: 0.5em;
+}
+
+.body .section blockquote p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.body .section blockquote cite {
+  margin-top: 0.5em;
+  margin-bottom: -0.3em;
+  display: block;
+  font-size: 90%;
+}
+
+.body .section table{
+  border: 1px solid #dedede;
+  border-collapse: collapse;
+  font-size: 90%;
+  margin: 1em 0;
+}
+
+.body .section table td , .body .section table th{
+  padding: 0.3em;
+}
+
+.body .section table td{
+  border: 1px solid #dedede;
+}
+
+.body .section table th{
+  background: #eee url(http://img.f.hatena.ne.jp/images/fotolife/t/toyoh/20100703/20100703175646.gif) top left no-repeat;
+  border: 1px solid #cdcdcd;
+}
+
+.body .section table th a{
+  color: #4259bc;
+}
+
+.body .section table.hatena-question-detail{
+  width: 500px;
+}
+
+.body .section table.hatena-question-detail td.hatena-question-detail-value{
+  width: 200px;
+  white-space: nowrap;
+}
+
+.body .section .hatena-asin-detail{
+  margin: 1em 0;
+  border: 1px solid #d0d1d9;
+  padding: 0.5em;
+  font-size: 90%;
+}
+
+.body .section .hatena-asin-detail .hatena-asin-detail-image{
+  float: left;
+  margin-right: 15px;
+}
+
+.body .section .hatena-asin-detail .hatena-asin-detail-title{
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.body .section .hatena-asin-detail p{
+  text-indent: 0;
+}
+
+.body .section .hatena-asin-detail ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.body .section .hatena-asin-detail .hatena-asin-detail-foot{
+  clear: left;
+}
+
+.body .section dl{
+  margin: 1em 0;
+}
+
+.body .section dt{
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.body .section dd{
+  padding-bottom: 3px;
+  margin-left: 1em;
+}
+
+.body .ad{
+  padding: 1em;
+}
+
+.highlight{
+  background: #fff06e;
+  padding: 0 0.3em;
+}
+
+.body p.footnote{
+  font-size: 90%;
+  margin: 1em 0;
+}
+
+.body .sectionfooter{
+  text-align: right;
+  font-size: 90%;
+} 
+
+.body textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.body input , .body select{
+
+}
+
+.keywordcloud{
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar , .sidebar table.calendar{
+  color: #eee;
+}
+
+.sidebar a{
+  color: #bde5ff;
+}
+
+.sidebar a:visited{
+  color: #a0c8e2;
+}
+
+.sidebar table.calendar{
+  font-size: 100%;
+  width: 215px;
+  border-collapse: collapse;
+}
+
+.sidebar table.calendar td.calendar-prev-month , .sidebar table.calendar td.calendar-current-month , .sidebar table.calendar td.calendar-next-month{
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  padding-bottom: 5px;
+  background: transparent;
+}
+
+.sidebar table.calendar td.calendar-prev-month{
+  text-align: right;
+}
+
+.sidebar table.calendar td.calendar-next-month{
+  text-align: left;
+}
+
+.sidebar table.calendar td{
+  text-align: center;
+  padding: 3px;
+  border: 1px solid #4a658c;
+  background: url(http://img.f.hatena.ne.jp/images/fotolife/t/toyoh/20100703/20100703175650.gif) top left no-repeat;
+}
+
+.sidebar table.calendar td.day-today{
+  background: #4a658c;
+}
+
+.sidebar table.calendar td img{
+  width: 15px;
+  height: 15px;
+}
+
+.hatena-module {
+}
+
+.sidebar .hatena-module {
+  background:url("http://img.f.hatena.ne.jp/images/fotolife/t/toyoh/20100703/20100703175648.gif") no-repeat;
+}
+
+.hatena-module .hatena-moduletitle{
+  padding: 0.5em 0 1em 0;
+  font-weight: bold;
+  font-family: "Georgia" , serif;
+  line-height: 100%;
+}
+
+.sidebar .hatena-module .hatena-moduletitle{
+  padding: 1.5em 0.7em 0.7em 1em;
+  color: #fff;
+}
+
+.sidebar .hatena-module .hatena-moduletitle a{
+  color: #fff;
+}
+
+
+.hatena-module .hatena-modulebody{
+  padding: 0 1em 1em 1em;
+  background:#5a7194;
+  margin-left:3px;
+ _height: 1%;
+ *height1%;
+}
+
+.hatena-modulebody:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.hatena-module ol{
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
+.hatena-module ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hatena-module ul li , .hatena-module ol li{
+  padding-left:3px;
+  padding-bottom: 2px;
+  margin-bottom:2px;
+  border-bottom:1px solid #637b9f;
+}
+
+
+.hatena-module ul li a ,.hatena-module ol li a{
+  text-decoration: none;
+}
+
+.hatena-module ul li a:hover ,.hatena-module ol li a:hover {
+  text-decoration: underline;
+}
+
+.hatena-module ul.hatena-photo {
+  margin: 0;
+  padding: 0;
+}
+
+.hatena-module ul.hatena-photo li{
+  display: inline;
+  border-bottom:0;
+}
+
+.hatena-module ul.hatena-photo li img{
+  border-bottom: 1px solid #63799c;
+  border-right: 1px solid #63799c;
+  border-top: 1px solid #4a658c;
+  border-left: 1px solid #4a658c;
+}
+
+.hatena-module ul.keywordcloud{
+  padding-left: 0;
+}
+
+
+.hatena-module p{
+  margin: 0;
+}
+
+.hatena-module .hatena-profile{
+}
+
+.hatena-module .hatena-profile .hatena-profile-id a{
+  font-weight: bold;
+}
+
+.hatena-module .hatena-profile-image img{
+  float: left;
+  margin: 5px 10px 5px 0;
+}
+
+.sidebar .hatena-module form {
+}
+
+.sidebar .hatena-module form input{
+  border: 1px solid #4a658c;
+  margin: 0.5em 0.2em;
+  vertical-align: middle;
+}
+
+.sidebar .hatena-module form select{
+  border: 1px solid #4a658c;
+}
+
+.recentitem{
+  padding: 1em;
+  margin: 0.7em 1em 0 0;
+  font-size: 90%;
+  font-weight: bold;
+  color: #fff;
+  background: url("http://img.f.hatena.ne.jp/images/fotolife/t/toyoh/20100703/20100703175648.gif") no-repeat;
+}
+
+.recentitem a , .recentitem a:visited{
+  color: #fff;
+}
+
+.recentsubtitles{
+  padding: 0.1em 1em 0.5em 1em;
+  margin: 0 1em 0 0;
+  font-size: 90%;
+}
+
+.recentsubtitles img{
+  vertical-align: middle;
+}
+
+.recentitem_diary {
+  padding: 0.5em 1em;
+}
+
+div.comment , div.refererlist{
+  margin: 1em 0;
+  background: #efefef;
+  border: 3px double #fff;
+  font-size: 90%;
+}
+
+.refererlist{
+}
+
+.comment .caption , .refererlist .caption{
+  padding: 0.3em 0.5em;
+}
+
+.comment .caption a, .refererlist .caption a{
+  color: #333;
+}
+
+.comment .commentshort{
+  padding: 1em;
+  border-top: 1px solid #fff;
+}
+
+.comment .commentshort p{
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
+.comment .commentshort p .canchor a{
+  color: #333;
+  text-decoration: none;
+}
+
+.comment textarea{
+  border: 1px solid #ccc;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+.comment input, .refererlist input{
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.comment input.field{
+}
+
+.comment input#comment-username{
+}
+
+.refererlist ul{
+  list-style: circle;
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 28px;
+  padding-top: 0.5em;
+  border-top: 1px solid #fff;
+}
+
+.refererlist ul li input{
+  vertical-align: middle;
+}
+
+
+#hatena-about{
+}
+
+#hatena-about h2 a{
+  font-size: 70%;
+  font-weight: normal;
+  margin-left: 5px;
+  color: #fff;
+}
+
+#hatena-about h3{
+  padding-top: 0.5em;
+}
+
+#hatena-about ul{
+  margin: 1em;
+  padding: 0;
+}
+
+#hatena-about .hatena-profile-list{
+  margin: 1em 0;
+  padding: 0;
+}
+
+#hatena-about .hatena-profile-list li{
+  display: inline;
+}
+
+.sidebar .hatena-clock{
+  text-align: center;
+  padding: 0.5em;
+}
+
+.footer{
+  padding: 1em;
+  clear: both;
+}
+
+
+div.contents{
+  border: 1px solid #ddd;
+  margin-top: 1em;
+  margin-left: 1em;
+  color: #333;
+}
+
+div.contents ul{
+  list-style: circle;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+}
+
+p.message{
+  margin: 0;
+  padding: 1em;
+  color: #313c63;
+}
+
+a.file{
+  padding-left: 17px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background: url("http: //www.hatena.ne.jp/images/common/icon-download.gif") 0 50% no-repeat;
+}
+
+#simple-header{
+  background: #203454;
+	font-size: 116%;
+}
+
+#simple-header input.search-button, #simple-header input.search-button-keyword {
+  background:#5a7194;
+}
+
+
+/* adsense */
+
+.google_color_text { color:#333333; }
+.google_color_link { color:#0b55a1; }
+.google_color_url { color:#333333; }
+.google_color_bg { color:#ffffff; }
+.google_color_border { color:#ffffff; }
+
+/* tweet */  
+
+div.twitter-tweet, 
+div.twitter-detail {
+  margin-top:0;
+  margin-bottom:0;
+  border-bottom:1px solid #efefef;
+}
+
+div.twitter-tweet p.twitter-tweet-text, 
+div.twitter-detail p.twitter-detail-text {
+  margin:0;
+  padding-top:7px;
+}
+
+div.twitter-tweet p.twitter-tweet-info, 
+div.twitter-detail p.twitter-detail-info {
+  color:#999999;
+  font-size:80%;
+  padding-top:0;
+  padding-bottom:6px;
+}
+div.twitter-detail div.twitter-detail-user img {
+  margin-top:6px;
+}
+
+div.twitter-tweet p.twitter-tweet-info a, 
+div.twitter-detail p.twitter-detail-info a{
+  color:#999999;
+  text-decoration:none;
+}
+
+div.twitter-tweet p.twitter-tweet-info a:hover, 
+div.twitter-detail p.twitter-detail-info a:hover{
+  text-decoration:underline;
+}
+
+
+.body .section table td img, .body .section table th img{
+  vertical-align: middle;
+  margin-right: 2px;
+  border: none;
+}
+
+th span, td span{
+  white-space: nowrap;
+}
+
+/* Hero attribute border */
+.Armadon, .Behemoth, .TheGladiator, .Hammerstorm, .Jeraziah, .Legionnaire, .Pandamonium, .Predator, .Rampage, .Pebbles, .KeeperoftheForest, .Tundra, .Accursed, .Balphagore, .Deadwood, .Devourer, .Electrician, .Gauntlet, .Moraxus, .Kraken, .Magmus, .Maliken, .Pharaoh, .Pestilence, .WarBeast {
+    border-bottom: 2px solid #ff8471;
+    margin-left: 19px;
+}
+
+.Andromeda, .Engineer, .NightHound, .Nomad, .Silhouette, .Swiftblade, .Tremble, .Magebane, .MoonQueen, .Scout, .Valkyrie, .Wildsoul, .Zephyr, .Arachna, .Chronos, .CorruptedDisciple, .Dampeer, .Slither, .Fayde, .FlintBeastwood, .ForsakenArcher, .BloodHunter, .SandWraith, .TheMadman, .Soulstealer, .TheDarkLady {
+    border-bottom: 2px solid #8bdc66;
+    margin-left: 19px;
+}
+
+.Aluna, .Bombardier, .Bubbles, .TheChipper, .Blacksmith, .Empath, .Nymphora, .Thunderbringer, .Ophelia, .PollywogPriest, .Pyromancer, .Tempest, .Vindicator, .WitchSlayer, .WretchedHag, .Defiler, .PlagueRider, .DoctorRepulsor, .Glacius, .Hellbringer, .SoulReaper, .Myrmidon, .PuppetMaster, .DementedShaman, .Succubus, .VoodooJester, .Torturer {
+    border-bottom: 2px solid #66b1d9;
+    margin-left: 19px;
+}
+
+/* Hero icon */
+.Armadon:before, .Behemoth:before, .TheGladiator:before, .Hammerstorm:before, .Jeraziah:before, .Legionnaire:before, .Pandamonium:before, .Predator:before, .Rampage:before, .Pebbles:before, .KeeperoftheForest:before, .Tundra:before, .Accursed:before, .Balphagore:before, .Deadwood:before, .Devourer:before, .Electrician:before, .Gauntlet:before, .Moraxus:before, .Kraken:before, .Magmus:before, .Maliken:before, .Pharaoh:before, .Pestilence:before, .WarBeast:before {
+    content: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110419/20110419170025.png?1303200041");
+    padding: 0px 8px;
+    margin: 0px 3px 0px -19px;
+}
+
+.Andromeda:before, .Engineer:before, .NightHound:before, .Nomad:before, .Silhouette:before, .Swiftblade:before, .Tremble:before, .Magebane:before, .MoonQueen:before, .Scout:before, .Valkyrie:before, .Wildsoul:before, .Zephyr:before, .Arachna:before, .Chronos:before, .CorruptedDisciple:before, .Dampeer:before, .Slither:before, .Fayde:before, .FlintBeastwood:before, .ForsakenArcher:before, .BloodHunter:before, .SandWraith:before, .TheMadman:before, .Soulstealer:before, .TheDarkLady:before {
+    content: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110419/20110419170025.png?1303200041");
+    padding: 0px 8px;
+    margin: 0px 3px 0px -19px;
+}
+
+.Aluna:before, .Bombardier:before, .Bubbles:before, .TheChipper:before, .Blacksmith:before, .Empath:before, .Nymphora:before, .Thunderbringer:before, .Ophelia:before, .PollywogPriest:before, .Pyromancer:before, .Tempest:before, .Vindicator:before, .WitchSlayer:before, .WretchedHag:before, .Defiler:before, .PlagueRider:before, .DoctorRepulsor:before, .Glacius:before, .Hellbringer:before, .SoulReaper:before, .Myrmidon:before, .PuppetMaster:before, .DementedShaman:before, .Succubus:before, .VoodooJester:before, .Torturer:before {
+    content: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110419/20110419170025.png?1303200041");
+    padding: 0px 8px;
+    margin: 0px 3px 0px -19px;
+}
+
+.Armadon:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003059.jpg") no-repeat;
+    background-size: 16px auto;
+}
+
+.Behemoth:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003105.jpg") no-repeat;
+    background-size: 16px auto;
+}
+
+.TheGladiator:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003139.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Hammerstorm:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003141.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Jeraziah:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003147.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Legionnaire:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003151.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Pandamonium:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003213.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Predator:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003231.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Rampage:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003235.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Pebbles:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003216.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.KeeperoftheForest:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003150.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Tundra:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003254.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Accursed:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003051.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Balphagore:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003101.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Deadwood:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003131.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Devourer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003120.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Electrician:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033050.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Gauntlet:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003132.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Moraxus:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003202.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Kraken:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033049.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Magmus:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003206.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Maliken:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003159.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Pharaoh:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003226.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Pestilence:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003222.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.WarBeast:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003259.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Andromeda:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003056.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Engineer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033055.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.NightHound:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003207.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Nomad:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110423/20110423001641.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Silhouette:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110423/20110423001642.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Swiftblade:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003244.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Tremble:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110423/20110423001656.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Magebane:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003158.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.MoonQueen:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003200.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Scout:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003236.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Valkyrie:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033056.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Wildsoul:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003300.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Zephyr:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003302.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Arachna:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003058.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Chronos:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033051.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.CorruptedDisciple:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003116.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Dampeer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304014708.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Slither:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003237.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Fayde:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003128.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.FlintBeastwood:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003130.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.ForsakenArcher:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033048.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.BloodHunter:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003107.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.SandWraith:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033053.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.TheMadman:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003156.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Soulstealer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003239.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.TheDarkLady:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003123.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Aluna:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003050.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Bombardier:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003108.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Bubbles:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003114.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.TheChipper:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003115.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Blacksmith:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003110.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Empath:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003145.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Nymphora:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003209.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Thunderbringer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003245.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Ophelia:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003210.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.PollywogPriest:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003229.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Pyromancer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003234.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Tempest:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003247.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Vindicator:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003255.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.WitchSlayer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033052.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.WretchedHag:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100705/20100705193857.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Defiler:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003118.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.PlagueRider:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20100706/20100706033054.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.DoctorRepulsor:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003129.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Glacius:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003134.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Hellbringer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003144.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.SoulReaper:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003238.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Myrmidon:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003205.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.PuppetMaster:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003233.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.DementedShaman:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003119.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Succubus:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003241.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.VoodooJester:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003257.jpg") no-repeat;
+    background-size: 16px auto;
+}
+.Torturer:before {
+    background: url("http://cdn-ak.f.st-hatena.com/images/fotolife/t/toyoh/20110304/20110304003252.jpg") no-repeat;
+    background-size: 16px auto;
+}
+
